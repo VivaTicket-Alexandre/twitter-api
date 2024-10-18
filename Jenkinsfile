@@ -51,6 +51,7 @@ node {
 				} else { 
 	 				bat "mvn verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=org.springdoc:spring-boot-webmvc"
 				} 
+			}
 		}
 	}
 
